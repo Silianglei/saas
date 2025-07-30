@@ -15,7 +15,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@auth/core": "^0.34.1",
+    "@auth/core": "^0.37.0",
     "@convex-dev/auth": "^0.0.43",
     "@convex-dev/react-query": "^0.0.0-alpha.3",
     "@epic-web/client-hints": "^1.3.2",
