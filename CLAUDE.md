@@ -116,3 +116,30 @@ convex/
   - Real-world examples
 
 Always consult this file when working with Convex functions, schemas, or database operations.
+
+## Email Service Guidelines
+
+**Resend** is our email service provider for all email functionality. For detailed documentation and API references, consult:
+- `agent_docs/resend.txt` - Complete Resend documentation including:
+  - One-time password (OTP) email delivery
+  - Transactional email sending
+  - Marketing email campaigns and broadcasts
+  - Email templates with React Email
+  - Webhook event handling
+  - Domain verification and deliverability
+
+This service handles authentication emails, subscription notifications, and any future marketing campaigns.
+
+## Payment Processing Guidelines
+
+**Stripe** is our payment provider for subscriptions and billing. For comprehensive documentation and integration guidance, refer to:
+- `agent_docs/stripe.txt` - Full Stripe documentation covering:
+  - Stripe Checkout for subscription payments
+  - Billing and subscription management
+  - Webhook handling for payment events
+  - Customer portal for self-service
+  - Payment method management
+  - Invoice generation and management
+  - Testing with test cards and keys
+
+Stripe handles all payment processing, subscription lifecycle management, and billing operations.
