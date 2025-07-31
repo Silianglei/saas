@@ -35,7 +35,7 @@ npm run preview
 ### Stripe Webhook (Development)
 ```bash
 # Listen for Stripe webhook events locally
-stripe listen --forward-to localhost:5173/api/webhook
+stripe listen --forward-to localhost:5173/stripe/webhook
 ```
 
 ## Architecture Overview
